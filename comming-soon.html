@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- set the encoding of your site -->
+	<meta charset="utf-8">
+	<!-- set the viewport width and initial-scale on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EAGLEEYES</title>
+	<!-- include the site animate stylesheet -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- include the site bootstrap stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- include the font awesome stylesheet -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="style.css">
+	<!-- include the site fonts stylesheet -->
+	<link rel="stylesheet" href="css/fonts.css">
+	<!-- include the site responsive stylesheet -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- include the site color stylesheet -->
+	<link rel="stylesheet" href="css/color/color.css">
+</head>
+<body>
+	<!-- Page Loader -->
+	<div id="pre-loader" class="loader-container">
+		<div class="loader">
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<!-- main container of all the page elements -->
+	<div id="wrapper">
+		<!-- contain main informative part of the site -->
+		<main id="main" role="main">
+			<!-- Mt Error Sec of the Page -->
+			<section class="error-sec coming-soon">
+				<div class="container-holder">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 text-center">
+								<h1 class="text-uppercase">COMING SOON</h1>
+								<span class="sub-title text-uppercase">Our Website is Under Construction.</span>
+								<div id="defaultCountdown" class="comming-timer"></div>
+								<h2>Follow Us For Updates</h2>
+								<ul class="list-unstyled footer-socials">
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript">
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement('style')
+			msViewportStyle.appendChild(
+			document.createTextNode(
+			'@-ms-viewport{width:auto!important}'
+			)
+		)
+			document.querySelector('head').appendChild(msViewportStyle)
+		}
+	</script>
+</body>
+</html>
